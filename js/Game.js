@@ -179,7 +179,7 @@ class Game {
 
   handleFuel(index){
     cars[index-1].overlap(fuels, (collector, collected) =>{
-      player.fuel = 185
+      player.fuel = 215
       collected.remove()
     });
 
