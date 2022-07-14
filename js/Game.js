@@ -62,7 +62,7 @@ class Game {
     coins = new Group();
     obstacles = new Group();
     
-    this.addSprites(fuels,4,fuelImg,0.02);
+    this.addSprites(fuels,5,fuelImg,0.02);
     this.addSprites(coins,18,coinImg,0.09);
     this.addSprites(obstacles,obstaclesPositions.length,obstacle1,0.04,obstaclesPositions);
   }
