@@ -6,7 +6,7 @@ class Player {
     this.positionY = 0;
     this.ranking = 0;
     this.score = 0;
-    this.fuel = 185;
+    this.fuel = 215;
     this.life = 185;
   }
 
